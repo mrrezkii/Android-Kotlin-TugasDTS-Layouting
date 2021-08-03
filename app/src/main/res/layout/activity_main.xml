@@ -45,7 +45,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/appCompatImageView" />
 
-    <androidx.appcompat.widget.AppCompatAutoCompleteTextView
+    <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/appCompatAutoCompleteTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -65,6 +65,7 @@
         android:text="@string/singer"
         android:textColor="@color/white"
         android:textSize="15sp"
+        android:layout_marginTop="13dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/appCompatAutoCompleteTextView" />
@@ -84,6 +85,7 @@
         android:orientation="horizontal"
         android:paddingBottom="43dp"
         android:weightSum="5"
+        android:layout_marginBottom="30dp"
         app:layout_constraintBottom_toBottomOf="parent">
 
         <androidx.appcompat.widget.AppCompatImageView
@@ -92,7 +94,8 @@
             android:layout_gravity="center"
             android:layout_weight="1"
             android:paddingStart="50dp"
-            android:src="@drawable/repeat" />
+            android:src="@drawable/repeat"
+            tools:ignore="RtlSymmetry" />
 
         <androidx.appcompat.widget.AppCompatImageView
             android:layout_width="wrap_content"
@@ -123,7 +126,8 @@
             android:layout_gravity="center"
             android:layout_weight="1"
             android:paddingEnd="50dp"
-            android:src="@drawable/speaker" />
+            android:src="@drawable/speaker"
+            tools:ignore="RtlSymmetry" />
 
     </androidx.appcompat.widget.LinearLayoutCompat>
 
