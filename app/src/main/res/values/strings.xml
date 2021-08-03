@@ -2,4 +2,7 @@
     <string name="app_name">Tugas layouting</string>
     <string name="title_song">Banana Brain</string>
     <string name="singer">DIE ANTWORD</string>
+    <string name="contraint_layout">Contraint Layout</string>
+    <string name="linear_layout">Linear Layout</string>
+    <string name="relative_layout">Relative Layout</string>
 </resources>

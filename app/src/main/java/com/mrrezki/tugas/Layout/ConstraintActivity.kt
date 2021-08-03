@@ -5,12 +5,15 @@ import android.view.Window
 import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
-import com.mrrezki.tugas.R
+import com.mrrezki.tugas.databinding.ActivityConstraintBinding
 
 class ConstraintActivity : AppCompatActivity() {
+
+    private val binding by lazy { ActivityConstraintBinding.inflate(layoutInflater) }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_constraint)
+        setContentView(binding.root)
         AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
     }
 
