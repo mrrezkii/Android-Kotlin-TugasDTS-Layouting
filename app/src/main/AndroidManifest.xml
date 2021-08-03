@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TugasLayouting.NoActionBar">
         <activity
+            android:name=".Layout.RelativeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Layout.LinearActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Layout.ConstraintActivity"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
